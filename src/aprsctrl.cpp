@@ -23,6 +23,7 @@
 #include "aprsctrl.h"
 
 #include "settings.h"
+#include <cmath>
 
 APRSCtrl::APRSCtrl(QObject *parent)
 	: QObject(parent),
